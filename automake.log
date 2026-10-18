@@ -1,0 +1,32 @@
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "code_rom.v"
+ERROR:HDLCompilers:303 - "code_rom.v" line 6 Function calls such as to 'clog2' are not supported in constant expressions
+Module <code_rom> compiled
+Compiling verilog file "huffman_encoder.v"
+Module <huffman_encoder> compiled
+Compiling verilog file "dec_table.v"
+Module <dec_table> compiled
+Compiling verilog file "huffman_decoder.v"
+Module <huffman_decoder> compiled
+Compiling verilog file "top.v"
+Module <top> compiled
+Analysis of file <"top.prj"> failed.
+--> 
+
+Total memory usage is 147872 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+

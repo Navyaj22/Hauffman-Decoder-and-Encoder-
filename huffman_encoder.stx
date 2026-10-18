@@ -1,0 +1,24 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.21 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "code_rom.v"
+ERROR:HDLCompilers:26 - "code_rom.v" line 8 unexpected token: '$clog2'
+ERROR:HDLCompilers:26 - "code_rom.v" line 8 expecting ':', found ')'
+Module <code_rom> compiled
+Compiling verilog file "huffman_encoder.v"
+Module <huffman_encoder> compiled
+Analysis of file <"huffman_encoder.prj"> failed.
+--> 
+
+Total memory usage is 145952 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

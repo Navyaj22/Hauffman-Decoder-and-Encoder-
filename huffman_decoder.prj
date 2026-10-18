@@ -1,0 +1,2 @@
+verilog work "dec_table.v"
+verilog work "huffman_decoder.v"

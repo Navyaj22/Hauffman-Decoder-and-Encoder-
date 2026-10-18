@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn __projnav/code_rom.xst -ofn code_rom.syr

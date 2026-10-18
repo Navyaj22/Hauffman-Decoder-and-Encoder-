@@ -1,0 +1,276 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+FATAL ERROR: Unable to open log file __projnav/createTF.err in write mode.
+Error creating encoder_tb.v. Defaulting to boilerplate test fixture.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "code_rom.v"
+ERROR:HDLCompilers:26 - "code_rom.v" line 8 unexpected token: '$clog2'
+ERROR:HDLCompilers:26 - "code_rom.v" line 8 expecting ':', found ')'
+Module <code_rom> compiled
+Analysis of file <"code_rom.prj"> failed.
+--> 
+
+Total memory usage is 146080 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "code_rom.v"
+ERROR:HDLCompilers:26 - "code_rom.v" line 8 unexpected token: '$clog2'
+ERROR:HDLCompilers:26 - "code_rom.v" line 8 expecting ':', found ')'
+Module <code_rom> compiled
+Compiling verilog file "huffman_encoder.v"
+Module <huffman_encoder> compiled
+Compiling verilog file "dec_table.v"
+Module <dec_table> compiled
+Compiling verilog file "huffman_decoder.v"
+Module <huffman_decoder> compiled
+Compiling verilog file "top.v"
+Module <top> compiled
+Analysis of file <"top.prj"> failed.
+--> 
+
+Total memory usage is 146848 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "dec_table.v"
+Module <dec_table> compiled
+Compiling verilog file "huffman_decoder.v"
+Module <huffman_decoder> compiled
+ERROR:HDLCompilers:109 - "huffman_decoder.v" line 56 Most significant bit operand in part-select of vector reg 'bitbuf' is illegal
+ERROR:HDLCompilers:107 - "huffman_decoder.v" line 56 Illegal right hand side of nonblocking assignment
+Analysis of file <"huffman_decoder.prj"> failed.
+--> 
+
+Total memory usage is 146080 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "code_rom.v"
+ERROR:HDLCompilers:26 - "code_rom.v" line 8 unexpected token: '$clog2'
+ERROR:HDLCompilers:26 - "code_rom.v" line 8 expecting ':', found ')'
+Module <code_rom> compiled
+Compiling verilog file "huffman_encoder.v"
+Module <huffman_encoder> compiled
+Analysis of file <"huffman_encoder.prj"> failed.
+--> 
+
+Total memory usage is 145952 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "code_rom.v"
+ERROR:HDLCompilers:26 - "code_rom.v" line 8 unexpected token: '$clog2'
+ERROR:HDLCompilers:26 - "code_rom.v" line 8 expecting ':', found ')'
+Module <code_rom> compiled
+Analysis of file <"code_rom.prj"> failed.
+--> 
+
+Total memory usage is 147872 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "code_rom.v"
+ERROR:HDLCompilers:303 - "code_rom.v" line 6 Function calls such as to 'clog2' are not supported in constant expressions
+Module <code_rom> compiled
+Analysis of file <"code_rom.prj"> failed.
+--> 
+
+Total memory usage is 146528 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "code_rom.v"
+ERROR:HDLCompilers:303 - "code_rom.v" line 6 Function calls such as to 'clog2' are not supported in constant expressions
+Module <code_rom> compiled
+Compiling verilog file "huffman_encoder.v"
+Module <huffman_encoder> compiled
+Compiling verilog file "dec_table.v"
+Module <dec_table> compiled
+Compiling verilog file "huffman_decoder.v"
+Module <huffman_decoder> compiled
+Compiling verilog file "top.v"
+Module <top> compiled
+Analysis of file <"top.prj"> failed.
+--> 
+
+Total memory usage is 146592 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+

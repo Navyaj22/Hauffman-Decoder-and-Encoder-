@@ -1,0 +1,24 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.21 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "dec_table.v"
+Module <dec_table> compiled
+Compiling verilog file "huffman_decoder.v"
+Module <huffman_decoder> compiled
+ERROR:HDLCompilers:109 - "huffman_decoder.v" line 56 Most significant bit operand in part-select of vector reg 'bitbuf' is illegal
+ERROR:HDLCompilers:107 - "huffman_decoder.v" line 56 Illegal right hand side of nonblocking assignment
+Analysis of file <"huffman_decoder.prj"> failed.
+--> 
+
+Total memory usage is 146080 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

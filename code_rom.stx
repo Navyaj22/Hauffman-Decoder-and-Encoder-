@@ -1,0 +1,21 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.20 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "code_rom.v"
+ERROR:HDLCompilers:303 - "code_rom.v" line 6 Function calls such as to 'clog2' are not supported in constant expressions
+Module <code_rom> compiled
+Analysis of file <"code_rom.prj"> failed.
+--> 
+
+Total memory usage is 146528 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

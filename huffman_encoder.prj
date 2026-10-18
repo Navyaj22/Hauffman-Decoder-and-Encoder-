@@ -1,0 +1,2 @@
+verilog work "code_rom.v"
+verilog work "huffman_encoder.v"

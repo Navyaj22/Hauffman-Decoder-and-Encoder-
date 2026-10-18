@@ -1,0 +1,41 @@
+# Reading C:/altera/90/modelsim_ase/tcl/vsim/pref.tcl 
+# do encoder_tb.fdo 
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module code_rom
+# 
+# Top level modules:
+# 	code_rom
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module huffman_encoder
+# 
+# Top level modules:
+# 	huffman_encoder
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module encoder_tb
+# 
+# Top level modules:
+# 	encoder_tb
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps encoder_tb glbl 
+# Loading work.encoder_tb
+# ** Error: (vsim-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.huffman_encoder
+# ** Error: (vsim-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.code_rom
+# Loading work.glbl
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+# ** Warning: (vsim-7) Failed to open readmem file "codes.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : code_rom.v(24)
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/encoder/rom
